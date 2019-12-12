@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>  
+<html xmlns:th="http://www.thymeleaf.org">  
+<head>  
+    <meta charset="UTF-8">  
+    <title>Secured Page</title>  
+</head>  
+<body>  
+    <h1>Secured Page</h1> 
+    <h3>Welcome,  <i><span th:text="${authentication.name}"></span></i></h3>
+    <h5>You have successfully logged In Using Spring OAuth2 SSO</h5>
+      
+</body>  
+</html>
